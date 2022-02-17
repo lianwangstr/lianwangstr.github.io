@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>My test page</title>
+  </head>
+  <body>
+    <!-- 4 heading levels: -->
+    <h1>My fist test page</h1>
+    <h2>My top level heading</h2>
+    <h3>My subheading</h3>
+    <h4>My sub-subheading</h4>
+    <p>This is a single paragraph</p>
+
+    <img src="images/Shark-Knight-Gawr-Gura-by-ZERONIS.jpg" alt="Cute anime girl">
+    <p>At <a href="https://developer.mozilla.org/">Mozilla</a>, we’re a global community of</p>
+
+    <ul>
+      <li id="first-li">technologists</li>
+      <li>thinkers</li>
+      <li>builders</li>
+    </ul>
+    <p>Many people join us, such as</p>
+    <ol>
+      <li>developers</li>
+      <li>engineers</li>
+      <li>entrepreneurs</li>
+    </ol>
+
+  <button>Change user</button>
+
+  <script src="scripts/main.js"></script>
+  <!-- If you are using JavaScript to manipulate elements on the page (or more accurately, the Document Object Model), your code won't work if the JavaScript is loaded and parsed before the HTML you are trying to do something to.
+  An old-fashioned solution to this problem used to be to put your script element right at the bottom of the body (e.g. just before the </body> tag), so that it would load after all the HTML has been parsed. The problem with this solution is that loading/parsing of the script is completely blocked until the HTML DOM has been loaded. On larger sites with lots of JavaScript, this can cause a major performance issue, slowing down your site.
+  -->
+  </body>
+</html>
